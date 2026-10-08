@@ -1,0 +1,65 @@
+/* ===== apresentação (documento para a Drawikky) ===== */
+.doc-capa { position: relative; overflow: hidden; background: var(--laranja); color: var(--noite); padding: clamp(40px, 7vw, 80px) 0 110px; isolation: isolate; border-bottom: var(--borda) solid var(--noite); }
+.doc-capa .fundo-padrao { z-index: -1; }
+.doc-capa-in { display: grid; gap: 16px; justify-items: start; }
+.doc-selo { background: var(--noite); color: var(--amarelo); padding: 4px 10px; border-radius: 6px; }
+.doc-titulo { font-size: clamp(58px, 10vw, 128px); color: var(--creme); transform: rotate(-3deg); transform-origin: left; }
+:root[data-contorno="on"] .doc-titulo { --ow: .028em; --oc: var(--noite); text-shadow: var(--ow) 0 0 var(--oc), calc(var(--ow) * -1) 0 0 var(--oc), 0 var(--ow) 0 var(--oc), 0 calc(var(--ow) * -1) 0 var(--oc), var(--ow) var(--ow) 0 var(--oc), calc(var(--ow) * -1) var(--ow) 0 var(--oc), var(--ow) calc(var(--ow) * -1) 0 var(--oc), calc(var(--ow) * -1) calc(var(--ow) * -1) 0 var(--oc), .06em .06em 0 var(--rosa), .072em .072em 0 var(--oc); }
+:root[data-contorno="off"] .doc-titulo { color: var(--noite); }
+.doc-intro { font-size: 18px; font-weight: 600; max-width: 60ch; }
+
+.doc-corpo { max-width: 920px; padding-top: 40px; padding-bottom: 80px; }
+.doc-sec { padding: 40px 0; border-bottom: 2px dashed var(--linha-suave); }
+.doc-sec:last-child { border-bottom: 0; }
+.doc-sec > p, .doc-sec > ul, .doc-sec > ol { margin-bottom: 14px; }
+.doc-n { display: inline-block; background: var(--amarelo); color: var(--noite); border: 2px solid var(--noite); padding: 3px 9px; border-radius: 6px; box-shadow: 3px 3px 0 var(--noite); }
+.doc-h { font-size: clamp(40px, 6vw, 60px); text-shadow: 2px 2px 0 var(--rosa); margin: 12px 0 16px; }
+.doc-h3 { font-size: 20px; font-weight: 900; margin: 26px 0 10px; }
+.doc-pequeno { font-size: 14px; color: var(--tinta-2); }
+.doc-duas { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 18px; }
+.doc-cartao { display: grid; gap: 12px; align-content: start; background: var(--cartao); border: var(--borda) solid var(--linha); border-radius: 20px; padding: 20px; box-shadow: var(--pop); min-width: 0; }
+.doc-cartao-escuro { background: var(--noite); color: var(--creme); border-color: var(--linha); }
+.doc-cartao-escuro .t-selo { color: var(--amarelo); }
+.doc-cartao-escuro .doc-pequeno { color: color-mix(in srgb, var(--creme) 80%, transparent); }
+.doc-cartao-escuro .btn { justify-self: start; border-color: var(--creme); box-shadow: 3px 3px 0 #05061a; }
+.doc-links { display: grid; gap: 10px; }
+.doc-links li { display: grid; }
+.url { font-weight: 700; overflow-wrap: anywhere; color: inherit; }
+.doc-acesso { display: flex; gap: 12px; flex-wrap: wrap; margin: 0; }
+.doc-acesso div { background: color-mix(in srgb, var(--creme) 10%, transparent); border-radius: 12px; padding: 8px 14px; }
+.doc-acesso dt { font-size: 12px; opacity: .8; }
+.doc-acesso dd { margin: 0; font-size: 18px; font-weight: 800; }
+.doc-acesso code { font-family: ui-monospace, monospace; }
+.doc-roteiro, .doc-abas { display: grid; gap: 12px; counter-reset: n; }
+.doc-roteiro li, .doc-abas li { counter-increment: n; position: relative; background: var(--cartao); border: 2px solid var(--linha); border-radius: 16px; padding: 14px 16px 14px 58px; }
+.doc-roteiro li::before, .doc-abas li::before { content: counter(n, decimal-leading-zero); position: absolute; left: 14px; top: 14px; font-family: var(--f-selo, monospace); font-size: 12px; background: var(--rosa); color: var(--noite); border: 2px solid var(--noite); border-radius: 6px; padding: 1px 6px; }
+.doc-roteiro b, .doc-abas b { display: block; font-size: 17px; }
+.doc-lista { display: grid; gap: 8px; padding-left: 0; }
+.doc-lista li { position: relative; padding-left: 24px; }
+.doc-lista li::before { content: "\2726"; position: absolute; left: 0; color: var(--rosa); }
+.doc-fontes { display: grid; gap: 16px; }
+.doc-fonte { background: var(--cartao); border: var(--borda) solid var(--linha); border-radius: 18px; padding: 18px; box-shadow: var(--pop); display: grid; gap: 6px; }
+.doc-fonte-amostra { overflow-wrap: anywhere; }
+.doc-fonte-nome { font-weight: 900; }
+.doc-cores { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 200px), 1fr)); gap: 14px; }
+.doc-cor { display: grid; gap: 3px; background: var(--cartao); border: 2px solid var(--linha); border-radius: 16px; padding: 12px; }
+.doc-cor-amostra { height: 64px; border-radius: 10px; border: 2px solid var(--noite); margin-bottom: 6px; }
+.doc-cor code { font-family: ui-monospace, monospace; font-size: 14px; }
+.doc-cor small { font-size: 12.5px; color: var(--tinta-2); line-height: 1.4; }
+.doc-fluxo { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 160px), 1fr)); gap: 12px; counter-reset: f; }
+.doc-fluxo li { counter-increment: f; background: var(--cartao); border: 2px solid var(--linha); border-radius: 16px; padding: 14px; font-size: 14px; }
+.doc-fluxo li b { display: block; font-size: 16px; }
+.doc-fluxo li b::before { content: counter(f) ". "; color: var(--rosa); }
+.doc-formula { background: var(--noite); color: var(--creme); border-radius: 16px; padding: 16px 18px; font-weight: 800; font-size: 17px; }
+.doc-formula span { color: var(--amarelo); }
+.doc-exemplo { background: var(--fundo-2); border: 2px dashed var(--linha-suave); border-radius: 14px; padding: 14px 16px; }
+.doc-estados { display: grid; gap: 14px; margin-bottom: 14px; }
+.doc-estados li { display: grid; gap: 8px; justify-items: start; }
+.doc-estrutura { display: grid; gap: 10px; }
+.doc-estrutura li { display: grid; gap: 2px; padding: 12px 0; border-bottom: 1px solid var(--linha-suave); }
+.doc-estrutura code { font-family: ui-monospace, monospace; font-size: 13.5px; background: var(--fundo-2); padding: 1px 6px; border-radius: 6px; }
+.doc-conferir .doc-lista li { background: var(--cartao); border: 2px solid var(--linha-suave); border-radius: 12px; padding: 10px 12px 10px 34px; }
+.doc-conferir .doc-lista li::before { left: 12px; top: 10px; }
+.doc-pedir { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 12px; }
+.doc-pedir li { display: grid; gap: 4px; font-size: 12px; font-weight: 700; text-align: center; }
+.doc-pedir img { width: 100%; border-radius: 10px; border: 2px solid var(--linha); }

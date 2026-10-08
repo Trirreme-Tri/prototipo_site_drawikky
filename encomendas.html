@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Encomendas · Drawikky</title>
+<meta name="description" content="Monte sua encomenda com a Drawikky e veja o preço na hora: ilustração finalizada ou esboço colorido.">
+<meta property="og:title" content="Drawikky · ilustradora e capista">
+<meta property="og:description" content="Curte meus desenhos? Tenha um só seu! Portfólio, agenda e encomendas.">
+<meta property="og:image" content="assets/cenas/abertura.webp">
+<meta name="theme-color" content="#FA9A2D">
+<link rel="icon" href="assets/avatar.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/dados.js"></script>
+<script src="js/loja.js"></script>
+<script src="js/tema.js"></script>
+<script src="js/icones.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/agenda.js" defer></script>
+<script src="js/site.js" defer></script>
+<script src="js/encomenda.js" defer></script>
+</head>
+<body data-pagina="encomendas">
+<main id="conteudo">
+
+  <!-- ===== cartão de título do episódio ===== -->
+  <section class="cab" id="cabecalho">
+    <div class="cab-fundo fundo-padrao" aria-hidden="true"></div>
+    <div class="cab-in wrap">
+      <div class="cab-txt">
+        <p class="t-selo cab-ep" id="cab-ep"></p>
+        <h1 class="t-letreiro cab-titulo" id="cab-titulo"></h1>
+        <p class="cab-sub"><span id="cab-sub"></span> <em class="t-en" id="cab-en"></em></p>
+      </div>
+      <figure class="cab-tela"><img id="cab-img" src="" width="1080" height="1080" alt="" fetchpriority="high"></figure>
+    </div>
+    <div class="arco arco-fino" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="secao enc" id="encomendas" aria-labelledby="enc-t">
+    <div class="wrap">
+      <div class="enc-aviso" id="enc-aviso" hidden></div>
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">Calculadora</p>
+        <h2 class="t-letreiro sec-titulo" id="enc-t">Monte a sua</h2>
+        <p class="sec-sub">Escolha as opções e veja o preço na hora. <em class="t-en">· build your commission</em></p>
+      </header>
+      <div class="enc-grade">
+        <div class="enc-passos">
+          <fieldset class="passo"><legend><span class="t-selo passo-n">01</span> Tipo de arte</legend><div class="op-grade op-grade-2" id="op-tipo"></div></fieldset>
+          <fieldset class="passo"><legend><span class="t-selo passo-n">02</span> Enquadramento</legend><div class="op-grade" id="op-enquadramento"></div></fieldset>
+          <fieldset class="passo"><legend><span class="t-selo passo-n">03</span> Personagens na arte</legend>
+            <div class="stepper-linha"><div class="stepper"><button type="button" id="pers-menos" aria-label="Menos personagens">&minus;</button><output id="pers-qtd" aria-live="polite">1</output><button type="button" id="pers-mais" aria-label="Mais personagens">+</button></div><p class="passo-nota" id="pers-nota"></p></div>
+          </fieldset>
+          <fieldset class="passo"><legend><span class="t-selo passo-n">04</span> Fundo</legend><div class="op-grade op-grade-2" id="op-fundo"></div></fieldset>
+          <fieldset class="passo"><legend><span class="t-selo passo-n">05</span> Quantidade desta arte</legend>
+            <div class="stepper-linha"><div class="stepper"><button type="button" id="qtd-menos" aria-label="Diminuir quantidade">&minus;</button><output id="qtd" aria-live="polite">1</output><button type="button" id="qtd-mais" aria-label="Aumentar quantidade">+</button></div>
+            <p class="rascunho-preco" id="rascunho-preco" aria-live="polite"></p></div>
+          </fieldset>
+          <button class="btn btn-pop btn-largo" type="button" id="add-item">Adicionar ao pedido</button>
+        </div>
+
+        <aside class="ped" id="pedido" aria-labelledby="ped-t">
+          <div class="ped-cartao">
+            <p class="t-selo ped-selo">Seu pedido</p>
+            <h3 class="t-letreiro ped-titulo" id="ped-t">Resumo</h3>
+            <p class="ped-vazio" id="pedido-vazio">Nenhuma arte no pedido ainda. Monte uma ao lado e toque em “Adicionar ao pedido”.</p>
+            <ul class="ped-itens" id="pedido-itens"></ul>
+            <p class="ped-desconto" id="pedido-desconto" aria-live="polite"></p>
+            <label class="ped-comercial" id="comercial-linha" hidden><input type="checkbox" id="comercial"><span><b>Uso comercial</b><small id="comercial-txt"></small></span></label>
+            <div class="ped-recibo" id="recibo" aria-live="polite"></div>
+            <a class="btn btn-pop btn-largo" id="fechar" href="#" target="_blank" rel="noopener" aria-disabled="true">Fechar na DM</a>
+            <button class="btn btn-largo" type="button" id="copiar">Copiar resumo</button>
+            <p class="ped-nota" id="pedido-nota"></p>
+          </div>
+          <div class="capa-cartao" id="capa"></div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <section class="secao enc-regras-sec" aria-labelledby="reg-t">
+    <div class="wrap">
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">Letras miúdas</p>
+        <h2 class="t-letreiro sec-titulo" id="reg-t">Formas de pagamento</h2>
+        <p class="sec-sub">Como funciona antes de começar. <em class="t-en">· payment</em></p>
+      </header>
+      <div class="regras" id="regras"></div>
+    </div>
+  </section>
+
+  <section class="secao tab-sec" aria-labelledby="tab-t">
+    <div class="wrap">
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">Do Instagram</p>
+        <h2 class="t-letreiro sec-titulo" id="tab-t">Tabela original</h2>
+        <p class="sec-sub">Os posts com os valores, do jeito que estão no perfil. <em class="t-en">· price sheet</em></p>
+      </header>
+      <div id="tabelas"></div>
+    </div>
+  </section>
+
+  <section class="secao faq-sec" aria-labelledby="faq-t">
+    <div class="wrap wrap-estreito">
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">Dúvidas</p>
+        <h2 class="t-letreiro sec-titulo" id="faq-t">Perguntas frequentes</h2>
+      </header>
+      <div class="faq" id="faq"></div>
+    </div>
+  </section>
+
+  <div class="barra-total" id="barra-total" aria-hidden="true"><span>total</span><b id="barra-valor">R$ 0,00</b><a class="btn btn-pop" href="#pedido">Ver pedido</a></div>
+
+</main>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Drawikky · ilustradora e capista</title>
+<meta name="description" content="Drawikky: ilustradora, capista e designer gráfica. Portfólio, agenda e encomendas com preço na hora.">
+<meta property="og:title" content="Drawikky · ilustradora e capista">
+<meta property="og:description" content="Curte meus desenhos? Tenha um só seu! Portfólio, agenda e encomendas.">
+<meta property="og:image" content="assets/cenas/abertura.webp">
+<meta name="theme-color" content="#FA9A2D">
+<link rel="icon" href="assets/avatar.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/dados.js"></script>
+<script src="js/loja.js"></script>
+<script src="js/tema.js"></script>
+<script src="js/icones.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/agenda.js" defer></script>
+<script src="js/site.js" defer></script>
+</head>
+<body data-pagina="inicio">
+<main id="conteudo">
+
+  <!-- ===== abertura: a vinheta do desenho ===== -->
+  <section class="ab" id="abertura" aria-labelledby="ab-nome">
+    <div class="ab-fundo fundo-padrao" aria-hidden="true"><span class="ab-decor" id="ab-decor"></span></div>
+    <div class="ab-in">
+      <div class="ab-txt">
+        <p class="t-selo ab-kicker"><span class="ab-noar">no ar</span> <span id="ab-kicker"></span></p>
+        <h1 class="t-letreiro ab-nome" id="ab-nome">Drawikky</h1>
+        <p class="ab-titulo" id="ab-titulo"></p>
+        <p class="ab-frase"><span id="ab-frase"></span> <em class="t-en" id="ab-frase-en"></em></p>
+        <p class="ab-legenda" id="ab-legenda"></p>
+        <div class="ab-status" id="ab-status"></div>
+        <div class="ab-ctas">
+          <a class="btn btn-pop" href="encomendas.html">Monte sua encomenda</a>
+          <a class="btn" href="portfolio.html">Ver portfólio</a>
+        </div>
+      </div>
+      <figure class="ab-tela">
+        <img id="ab-img" src="assets/cenas/abertura.webp" width="1080" height="1080" alt="Arte da Drawikky: retrato pop com raios, flor azul e smiley" fetchpriority="high">
+        <span class="ab-selo selo-ia" id="ab-selo"></span>
+      </figure>
+    </div>
+    <div class="arco" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <!-- ===== faixa de prova social ===== -->
+  <div class="faixa" id="faixa" aria-label="Sobre o trabalho da Drawikky"></div>
+
+  <!-- ===== canais (links) ===== -->
+  <section class="secao canais" id="canais" aria-labelledby="canais-t">
+    <div class="wrap">
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">Canais</p>
+        <h2 class="t-letreiro sec-titulo" id="canais-t">Sintonize</h2>
+        <p class="sec-sub">Onde me encontrar <em class="t-en">· find me here</em></p>
+      </header>
+      <div class="canais-lista" id="links"></div>
+    </div>
+  </section>
+
+  <!-- ===== ep. 01: quem sou ===== -->
+  <section class="secao qs" id="quem-sou" aria-labelledby="qs-titulo">
+    <div class="wrap qs-in">
+      <figure class="qs-arte surge">
+        <img id="qs-img" src="assets/cenas/quem-sou.webp" width="1079" height="1204" alt="A personagem da Drawikky, de óculos redondos e lenço na cabeça" loading="lazy">
+        <span class="qs-raio adesivo" id="qs-raio"></span>
+      </figure>
+      <div class="qs-txt">
+        <header class="sec-cab surge">
+          <p class="t-selo sec-ep" id="qs-ep"></p>
+          <h2 class="t-letreiro sec-titulo" id="qs-titulo"></h2>
+          <p class="sec-sub"><em class="t-en" id="qs-titulo-en"></em></p>
+        </header>
+        <p class="qs-saudacao surge" id="qs-saudacao"></p>
+        <p class="qs-texto surge" id="qs-texto"></p>
+        <p class="qs-texto surge" id="qs-texto2"></p>
+        <ul class="qs-provas" id="qs-provas"></ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== intervalo comercial ===== -->
+  <section class="iv-com" id="intervalo1" aria-labelledby="iv1-titulo">
+    <div class="iv-com-fundo fundo-padrao" aria-hidden="true"></div>
+    <div class="iv-com-in">
+      <figure class="iv-com-arte surge"><img id="iv1-img" src="assets/cenas/intervalo-caixa.webp" width="1080" height="1204" alt="A Drawikky como boneca numa caixa de colecionador escrita NEW" loading="lazy"></figure>
+      <div class="iv-com-txt surge">
+        <p class="t-selo iv-com-selo" id="iv1-selo"></p>
+        <h2 class="iv-com-titulo" id="iv1-titulo-wrap"><span class="iv-com-explosao" id="iv1-explosao"></span><span class="t-letreiro" id="iv1-titulo"></span></h2>
+        <p class="iv-com-frase" id="iv1-frase"></p>
+        <p class="t-en iv-com-en" id="iv1-en"></p>
+        <a class="btn btn-pop" href="encomendas.html" id="iv1-botao"></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== programação: cartões para as outras páginas ===== -->
+  <section class="secao prog" id="programacao" aria-labelledby="prog-t">
+    <div class="wrap">
+      <header class="sec-cab surge">
+        <p class="t-selo sec-ep">A seguir</p>
+        <h2 class="t-letreiro sec-titulo" id="prog-t">Programação</h2>
+        <p class="sec-sub">Escolha o episódio <em class="t-en">· what's on</em></p>
+      </header>
+      <div class="prog-lista" id="chamadas"></div>
+    </div>
+  </section>
+
+  <!-- ===== cena de encerramento ===== -->
+  <section class="iv-cena" id="intervalo2">
+    <div class="iv-cena-img" id="iv2-img" role="img" aria-label="Close de uma arte com vagalumes"></div>
+    <div class="iv-cena-txt">
+      <p class="t-letreiro iv-cena-frase surge" id="iv2-frase"></p>
+      <p class="t-en iv-cena-en surge" id="iv2-en"></p>
+      <p class="t-selo iv-cena-cred" id="iv2-cred"></p>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>

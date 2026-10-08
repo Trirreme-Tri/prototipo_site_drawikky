@@ -1,0 +1,68 @@
+/*
+ * Cores do site da Drawikky — "Sábado de Manhã".
+ * As 7 cores da marca (tiradas das artes dela) são sobrescritas pelo painel
+ * via js/tema.js. As cores de uso (fundo, texto, cartão...) derivam delas e
+ * mudam no tema escuro.
+ */
+:root {
+  /* marca */
+  --laranja: #FA9A2D;   /* fundo do post "Encomendas abertas!!" */
+  --rosa: #FE80AB;      /* rosa da tabela de esboços coloridos */
+  --lavanda: #B092FF;   /* lavanda do post de encomendas */
+  --ceu: #74BDFF;       /* azul-céu do post de encomendas */
+  --amarelo: #FFE86E;   /* amarelo do post de encomendas */
+  --creme: #FFF3BF;     /* creme dos letreiros e do papel da tabela */
+  --noite: #20226A;     /* azul-noite do pônei das constelações */
+
+  /* fixas */
+  --vermelho: #E02F45;  /* selo "sem IA" e carimbo de esgotado */
+  --fogo: #FF7A01;      /* faixa do arco-íris */
+
+  /* uso (tema claro) */
+  --fundo: color-mix(in srgb, var(--creme) 45%, #fff);
+  --fundo-2: color-mix(in srgb, var(--creme) 80%, var(--rosa) 6%);
+  --cartao: #fff;
+  --tinta: var(--noite);
+  --tinta-2: color-mix(in srgb, var(--noite) 72%, #fff);
+  --linha: var(--noite);
+  --linha-suave: color-mix(in srgb, var(--noite) 18%, transparent);
+  --sombra: var(--noite);
+  --destaque: var(--rosa);
+  --sobre-destaque: var(--noite);
+
+  --raio: 18px;
+  --raio-p: 12px;
+  --borda: 2.5px;
+  --pop: 4px 4px 0 var(--sombra);
+  --pop-g: 7px 7px 0 var(--sombra);
+  --largura: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --nav-h: 64px;
+
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fundo: color-mix(in srgb, var(--noite) 70%, #05061a);
+    --fundo-2: color-mix(in srgb, var(--noite) 88%, #05061a);
+    --cartao: color-mix(in srgb, var(--noite) 85%, #ffffff 6%);
+    --tinta: var(--creme);
+    --tinta-2: color-mix(in srgb, var(--creme) 72%, var(--noite));
+    --linha: color-mix(in srgb, var(--creme) 85%, var(--noite));
+    --linha-suave: color-mix(in srgb, var(--creme) 16%, transparent);
+    --sombra: #05061a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --fundo: color-mix(in srgb, var(--noite) 70%, #05061a);
+  --fundo-2: color-mix(in srgb, var(--noite) 88%, #05061a);
+  --cartao: color-mix(in srgb, var(--noite) 85%, #ffffff 6%);
+  --tinta: var(--creme);
+  --tinta-2: color-mix(in srgb, var(--creme) 72%, var(--noite));
+  --linha: color-mix(in srgb, var(--creme) 85%, var(--noite));
+  --linha-suave: color-mix(in srgb, var(--creme) 16%, transparent);
+  --sombra: #05061a;
+  color-scheme: dark;
+}

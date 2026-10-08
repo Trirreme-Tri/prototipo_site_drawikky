@@ -1,0 +1,746 @@
+[
+ {
+  "origem": "drawikky_post_DXh0076keNO_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/sorria-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_DXh0076keNO_3.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/sorria-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Sorria!\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DXh0076keNO_2.webp",
+  "tipo": "esboço (processo)",
+  "destino": "assets/galeria/sorria-d2-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Sorria!\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DO1YaRKEYXv_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/noite-estrelada-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_DO1YaRKEYXv_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/noite-estrelada-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Noite estrelada\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DO1YaRKEYXv_3.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/noite-estrelada-d2-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Noite estrelada\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DO1YaRKEYXv_4.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/noite-estrelada-d3-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Noite estrelada\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DO1YaRKEYXv_5.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/noite-estrelada-d4-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Noite estrelada\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DIw21w_RqWz_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/colecionador-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_DIw21w_RqWz_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/colecionador-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Edição de colecionador\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_DIw21w_RqWz_3.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/colecionador-d2-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Edição de colecionador\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/vagalumes-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/vagalumes-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Vagalumes\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/fada-de-oculos-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/fada-de-oculos-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Fada de óculos\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_C6OnJJ9uHf4_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/game-over-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C6OnJJ9uHf4_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/game-over-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Game over\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_C5WBpiIuLQ7_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/milkman-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 8); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C5WBpiIuLQ7_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/milkman-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Milkman\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "drawikky_post_C3ktoybuhkM_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/garota-fantasma-p.webp + -g.webp",
+  "tratamento": "aparo de borda (8, 8, 8, 8); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C2h-4lyuDCh_1.webp",
+  "tipo": "arte",
+  "destino": "assets/galeria/ponei-das-constelacoes-p.webp + -g.webp",
+  "tratamento": "aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "galeria (arte principal)"
+ },
+ {
+  "origem": "drawikky_post_C2h-4lyuDCh_2.webp",
+  "tipo": "arte (detalhe/close)",
+  "destino": "assets/galeria/ponei-das-constelacoes-d1-*.webp",
+  "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "detalhe dentro de \"Pônei das constelações\" (tela cheia), não repete na grade"
+ },
+ {
+  "origem": "95d10047-image.png",
+  "tipo": "print de perfil",
+  "destino": "(recortado em 36 blocos)",
+  "tratamento": "grade detectada pelas bordas escuras; cada bloco recortado",
+  "status": "usada",
+  "motivo": "fonte das artes que não vieram em alta"
+ },
+ {
+  "origem": "print do perfil, bloco t00",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post fixado \"Encomendas abertas!!\" (promo) — versão em alta já recebida"
+ },
+ {
+  "origem": "print do perfil, bloco t01",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post fixado \"Esboços coloridos\" (promo) — versão em alta já recebida"
+ },
+ {
+  "origem": "print do perfil, bloco t02",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/verde-e-amarelo-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t03",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de DXh0076keNO_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t04",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de DO1YaRKEYXv_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t10",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de DIw21w_RqWz_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t11",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C89vyGYOSCl_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t12",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C6tqJTntgOU_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t13",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C6OnJJ9uHf4_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t14",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C5WBpiIuLQ7_1 (alta); além disso coberto pelo balão \"Mensagens\" do Instagram"
+ },
+ {
+  "origem": "print do perfil, bloco t20",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C3ktoybuhkM_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t21",
+  "tipo": "arte (miniatura)",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetido: mesma arte de C2h-4lyuDCh_1 (alta)"
+ },
+ {
+  "origem": "print do perfil, bloco t22",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/chuva-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t23",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/cafe-do-elfo-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t24",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/coroa-de-flores-p.webp",
+  "tratamento": "recorte (bordas -3px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t30",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/noiva-da-lua-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t31",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/sally-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t32",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/pomni-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t33",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/estrela-dourada-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t34",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/estampa-de-estrelas-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t40",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/rosa-mecanico-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t41",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/girassois-p.webp",
+  "tratamento": "recorte (bordas -3px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t42",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/morceguinho-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t43",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/bruxa-rosa-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t44",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/abraco-na-lua-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t50",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/serpentes-rosas-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t51",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/sorvete-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t52",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/arco-iris-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t53",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/chiclete-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t54",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/cerejeira-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t60",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/anjo-dos-morangos-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t61",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/the-last-bite-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t62",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/lua-crescente-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t63",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/bruxinha-confeiteira-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t64",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/pink-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "print do perfil, bloco t70",
+  "tipo": "arte (miniatura do perfil)",
+  "destino": "assets/galeria/coroa-de-bolo-p.webp",
+  "tratamento": "recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",
+  "status": "usada",
+  "motivo": "baixa resolução: só na grade; pedir arquivo original"
+ },
+ {
+  "origem": "drawikky_post_DXh0076keNO_1.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/abertura.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: abertura"
+ },
+ {
+  "origem": "drawikky_post_DIw21w_RqWz_3.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/quem-sou.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: quem-sou"
+ },
+ {
+  "origem": "drawikky_post_DIw21w_RqWz_1.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/intervalo-caixa.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: intervalo-caixa"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_2.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/intervalo-vagalumes.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: intervalo-vagalumes"
+ },
+ {
+  "origem": "drawikky_post_C2h-4lyuDCh_2.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/topo-portfolio.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: topo-portfolio"
+ },
+ {
+  "origem": "drawikky_post_C6OnJJ9uHf4_2.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/topo-agenda.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: topo-agenda"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_2.webp",
+  "tipo": "arte (cena)",
+  "destino": "assets/cenas/topo-encomendas.webp",
+  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
+  "status": "usada",
+  "motivo": "cena: topo-encomendas"
+ },
+ {
+  "origem": "drawikky_post_DXh0076keNO_3.webp",
+  "tipo": "arte (detalhe)",
+  "destino": "assets/avatar.webp",
+  "tratamento": "recorte do rosto; Lanczos 320px",
+  "status": "usada",
+  "motivo": "avatar (igual ao do perfil)"
+ },
+ {
+  "origem": "drawikky_post_DWxtIKxlzXU_1.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/encomendas-1-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DWxtIKxlzXU_2.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/encomendas-2-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DWxtIKxlzXU_3.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/encomendas-3-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DWxtIKxlzXU_4.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/encomendas-4-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DVb4G-ckRsJ_1.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/esbocos-1-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DVb4G-ckRsJ_2.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/esbocos-2-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DVb4G-ckRsJ_3.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/esbocos-3-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "drawikky_post_DVb4G-ckRsJ_4.jpg",
+  "tipo": "tabela de preços / post com texto",
+  "destino": "assets/tabela/esbocos-4-*.webp",
+  "tratamento": "Lanczos; unsharp suave; webp",
+  "status": "usada",
+  "motivo": "seção \"tabela original\" na página de encomendas"
+ },
+ {
+  "origem": "DWxtIKxlzXU_2.jpg",
+  "tipo": "recorte da tabela",
+  "destino": "assets/exemplos/ex-busto.webp",
+  "tratamento": "recorte (500, 0, 960, 460); Lanczos",
+  "status": "usada",
+  "motivo": "imagem de exemplo da calculadora"
+ },
+ {
+  "origem": "DWxtIKxlzXU_2.jpg",
+  "tipo": "recorte da tabela",
+  "destino": "assets/exemplos/ex-meio.webp",
+  "tratamento": "recorte (450, 0, 1000, 760); Lanczos",
+  "status": "usada",
+  "motivo": "imagem de exemplo da calculadora"
+ },
+ {
+  "origem": "DWxtIKxlzXU_2.jpg",
+  "tipo": "recorte da tabela",
+  "destino": "assets/exemplos/ex-inteiro.webp",
+  "tratamento": "recorte (450, 0, 965, 1350); Lanczos",
+  "status": "usada",
+  "motivo": "imagem de exemplo da calculadora"
+ },
+ {
+  "origem": "DWxtIKxlzXU_1.jpg",
+  "tipo": "recorte da tabela",
+  "destino": "assets/exemplos/ex-finalizada.webp",
+  "tratamento": "recorte (540, 300, 1080, 840); Lanczos",
+  "status": "usada",
+  "motivo": "imagem de exemplo da calculadora"
+ },
+ {
+  "origem": "DVb4G-ckRsJ_2.jpg",
+  "tipo": "recorte da tabela",
+  "destino": "assets/exemplos/ex-esboco.webp",
+  "tratamento": "recorte (560, 0, 1000, 440); Lanczos",
+  "status": "usada",
+  "motivo": "imagem de exemplo da calculadora"
+ },
+ {
+  "origem": "658926014_18093007826132504_513322134435948759_n.jpeg",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetida: mesma imagem de DWxtIKxlzXU_1 (hash perceptual igual); mantida a do post"
+ },
+ {
+  "origem": "drawikky_post_C3ktoybuhkM_2.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "tem o contador \"2/6\" do carrossel do Instagram e traço de outra pessoa (provável arte original do desafio) — confirmar autoria"
+ },
+ {
+  "origem": "drawikky_post_C6OnJJ9uHf4_3.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "tem o contador \"1/2\" do carrossel e é a arte original do desafio (\"Dtiys\"), não da Drawikky"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_3.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "arte original de @lunavalentineart (#LVADTIYS), não da Drawikky; tem ícone de vídeo — crédito mantido em texto"
+ },
+ {
+  "origem": "drawikky_post_C5WBpiIuLQ7_3.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "imagem de referência do personagem (captura do jogo), não é arte dela; 320px"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_4.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post promocional antigo de encomendas (2024), substituído pela tabela atual"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_5.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post promocional antigo de encomendas (2024), substituído pela tabela atual"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_6.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post promocional antigo de encomendas (2024), substituído pela tabela atual"
+ },
+ {
+  "origem": "drawikky_post_C6tqJTntgOU_7.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "post promocional antigo de encomendas (2024), substituído pela tabela atual"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_3.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetida: os mesmos 4 slides promocionais antigos de C6tqJTntgOU_4–7"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_4.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetida: os mesmos 4 slides promocionais antigos de C6tqJTntgOU_4–7"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_5.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetida: os mesmos 4 slides promocionais antigos de C6tqJTntgOU_4–7"
+ },
+ {
+  "origem": "drawikky_post_C89vyGYOSCl_6.webp",
+  "tipo": "post com texto / repetida / de terceiros",
+  "destino": "—",
+  "tratamento": "—",
+  "status": "descartada",
+  "motivo": "repetida: os mesmos 4 slides promocionais antigos de C6tqJTntgOU_4–7"
+ }
+]

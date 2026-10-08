@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Portfólio · Drawikky</title>
+<meta name="description" content="Portfólio da Drawikky: retratos, fantasia, fanarts e desafios DTIYS.">
+<meta property="og:title" content="Drawikky · ilustradora e capista">
+<meta property="og:description" content="Curte meus desenhos? Tenha um só seu! Portfólio, agenda e encomendas.">
+<meta property="og:image" content="assets/cenas/abertura.webp">
+<meta name="theme-color" content="#FA9A2D">
+<link rel="icon" href="assets/avatar.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/site.css">
+<script src="js/dados.js"></script>
+<script src="js/loja.js"></script>
+<script src="js/tema.js"></script>
+<script src="js/icones.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/agenda.js" defer></script>
+<script src="js/site.js" defer></script>
+</head>
+<body data-pagina="portfolio">
+<main id="conteudo">
+
+  <!-- ===== cartão de título do episódio ===== -->
+  <section class="cab" id="cabecalho">
+    <div class="cab-fundo fundo-padrao" aria-hidden="true"></div>
+    <div class="cab-in wrap">
+      <div class="cab-txt">
+        <p class="t-selo cab-ep" id="cab-ep"></p>
+        <h1 class="t-letreiro cab-titulo" id="cab-titulo"></h1>
+        <p class="cab-sub"><span id="cab-sub"></span> <em class="t-en" id="cab-en"></em></p>
+      </div>
+      <figure class="cab-tela"><img id="cab-img" src="" width="1080" height="1080" alt="" fetchpriority="high"></figure>
+    </div>
+    <div class="arco arco-fino" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  </section>
+
+  <section class="secao gal" aria-label="Galeria">
+    <div class="wrap">
+      <div class="gal-filtros" id="filtros" role="group" aria-label="Filtrar por categoria"></div>
+      <p class="gal-nota" id="gal-nota" hidden></p>
+      <div class="gal-grade" id="galeria"></div>
+      <div class="gal-mais">
+        <button class="btn" type="button" id="gal-mais" hidden>Carregar mais</button>
+        <p class="gal-conta" id="gal-conta" aria-live="polite"></p>
+        <a class="btn btn-pop" id="gal-ig" href="#" target="_blank" rel="noopener">Ver mais no Instagram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
