@@ -5,15 +5,15 @@ Site estático (HTML, CSS e JavaScript puro, sem build), com painel de edição.
 Desenvolvido pela [TRIRREME](https://trirreme.com).
 
 Estilo: **Sábado de Manhã** — o site é a vinheta de um desenho animado retrô
-(abertura, episódios, intervalo comercial e créditos finais), tirado dos posts
+(abertura, episódios, cena final e créditos finais), tirado dos posts
 dela: letreiro cursivo com contorno, explosões, arco-íris na diagonal, fundo de
-quadrifólios, a caixinha "Drawikky NEW" e a tela de "GAME OVER".
+quadrifólios e a tela de "GAME OVER".
 
 ## Páginas
 
 | Página | Arquivo | O que é |
 |---|---|---|
-| Início | `index.html` | Vinheta, prova social, canais (links), "quem sou", intervalo comercial, programação e cena final |
+| Início | `index.html` | Vinheta, prova social, canais (links), "quem sou", programação e cena final |
 | Portfólio | `portfolio.html` | Galeria com filtros, "carregar mais" e tela cheia (com detalhes) |
 | Agenda | `agenda.html` | Situação atual, agendas por mês (vagas e ESGOTADO automático), calendário e fila |
 | Encomendas | `encomendas.html` | Calculadora, capas, formas de pagamento, tabela original e perguntas |

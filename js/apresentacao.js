@@ -19,7 +19,7 @@
   var fontes = [
     { nome: ap.fontes.letreiro, papel: "Letreiro", uso: "Seu nome na abertura, os títulos das páginas e das seções, “Novo!” e “Obrigado por ler até aqui!”. É a letra cursiva retrô dos seus posts “Encomendas abertas!!”, “Formas de pagamento” e “Obrigado”.", amostra: "Encomendas abertas!!", estilo: "font-family:var(--f-letreiro);font-size:44px;line-height:1.1" },
     { nome: ap.fontes.texto, papel: "Texto", uso: "Tudo o que se lê: frases, descrições, preços e botões. É a mesma família das letras “encomendas ABERTAS” e “busto / meio corpo” das suas tabelas.", amostra: "Curte meus desenhos? Tenha um só seu!", estilo: "font-family:var(--f-texto);font-size:20px;font-weight:800" },
-    { nome: ap.fontes.selo, papel: "Selo", uso: "As etiquetas pequenas: Ep. 01, Canal 02, “no ar”, “intervalo comercial”. Lembra a letra de videogame do seu “GAME OVER”.", amostra: "Ep. 01 · no ar", estilo: "font-family:var(--f-selo);font-size:18px;text-transform:uppercase" }
+    { nome: ap.fontes.selo, papel: "Selo", uso: "As etiquetas pequenas: Ep. 01, Canal 02, “no ar”, “fim do episódio”. Lembra a letra de videogame do seu “GAME OVER”.", amostra: "Ep. 01 · no ar", estilo: "font-family:var(--f-selo);font-size:18px;text-transform:uppercase" }
   ];
   $("#fontes").innerHTML = fontes.map(function (f) {
     return '<div class="doc-fonte"><p class="t-selo">' + esc(f.papel) + '</p><p class="doc-fonte-amostra" style="' + f.estilo + '">' + esc(f.amostra) + "</p>" +
@@ -29,7 +29,7 @@
   var NOMES = {
     laranja: ["Tangerina", "fundo do seu post “Encomendas abertas!!”", "abertura e topo das Encomendas"],
     rosa: ["Rosa chiclete", "rosa da tabela de esboços coloridos", "botões, sombra dos letreiros, vagas"],
-    lavanda: ["Lavanda", "post de encomendas (lilás)", "intervalo comercial e topo da Agenda"],
+    lavanda: ["Lavanda", "post de encomendas (lilás)", "topo da Agenda e etiqueta de fechada"],
     ceu: ["Azul-céu", "post de encomendas (azul)", "ícones, fila e entregas"],
     amarelo: ["Amarelo", "post de encomendas (bolha amarela)", "etiquetas, seleção, números"],
     creme: ["Creme", "letreiros e papel da tabela", "letras dos letreiros e fundo claro"],

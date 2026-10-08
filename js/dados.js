@@ -9,7 +9,7 @@
  * Quando o conteúdo passar a vir de um banco de dados, só o loja.js muda.
  *
  * Estilo: "Sábado de Manhã" — o site é a vinheta de um desenho animado
- * retrô: abertura, episódios (as páginas), intervalo comercial e créditos.
+ * retrô: abertura, episódios (as páginas), cena final e créditos.
  */
 var PADRAO = {
   versao: 1,
@@ -39,14 +39,6 @@ var PADRAO = {
       img: "assets/cenas/abertura.webp", w: 1080, h: 1080, foco: "50% 30%",
       kicker: "Sábado de manhã apresenta",
       legenda: "Retratos cheios de cor, personagens com atitude e capas desenhadas à mão — do esboço à arte final."
-    },
-    intervalo1: {
-      img: "assets/cenas/intervalo-caixa.webp", w: 1080, h: 1204, foco: "50% 50%",
-      selo: "Intervalo comercial",
-      titulo: "Novo!",
-      frase: "Edição de colecionador: a sua personagem, feita à mão, numa caixinha só sua.",
-      fraseEn: "Collector's edition — one of a kind.",
-      botao: "Quero a minha"
     },
     intervalo2: {
       img: "assets/cenas/intervalo-vagalumes.webp", w: 1080, h: 1080, foco: "50% 35%",
@@ -163,7 +155,7 @@ var PADRAO = {
     {"id": "verde-e-amarelo", "img": "assets/galeria/verde-e-amarelo-p.webp", "grande": "assets/galeria/verde-e-amarelo-p.webp", "w": 550, "h": 684, "gw": 550, "gh": 684, "titulo": "Verde e amarelo", "tag": "Retratos", "credito": "", "detalhes": [], "baixa": true, "visivel": true},
     {"id": "sorria", "img": "assets/galeria/sorria-p.webp", "grande": "assets/galeria/sorria-g.webp", "w": 600, "h": 600, "gw": 1080, "gh": 1080, "titulo": "Sorria!", "tag": "Retratos", "credito": "", "detalhes": [{"img": "assets/galeria/sorria-d1-p.webp", "grande": "assets/galeria/sorria-d1-g.webp", "w": 1080, "h": 1080}, {"img": "assets/galeria/sorria-d2-p.webp", "grande": "assets/galeria/sorria-d2-g.webp", "w": 1080, "h": 1080}], "baixa": false, "visivel": true},
     {"id": "noite-estrelada", "img": "assets/galeria/noite-estrelada-p.webp", "grande": "assets/galeria/noite-estrelada-g.webp", "w": 480, "h": 600, "gw": 1080, "gh": 1350, "titulo": "Noite estrelada", "tag": "Fantasia", "credito": "", "detalhes": [{"img": "assets/galeria/noite-estrelada-d1-p.webp", "grande": "assets/galeria/noite-estrelada-d1-g.webp", "w": 1080, "h": 1350}, {"img": "assets/galeria/noite-estrelada-d2-p.webp", "grande": "assets/galeria/noite-estrelada-d2-g.webp", "w": 1080, "h": 1350}, {"img": "assets/galeria/noite-estrelada-d3-p.webp", "grande": "assets/galeria/noite-estrelada-d3-g.webp", "w": 1079, "h": 1350}, {"img": "assets/galeria/noite-estrelada-d4-p.webp", "grande": "assets/galeria/noite-estrelada-d4-g.webp", "w": 1080, "h": 1350}], "baixa": false, "visivel": true},
-    {"id": "colecionador", "img": "assets/galeria/colecionador-p.webp", "grande": "assets/galeria/colecionador-g.webp", "w": 538, "h": 600, "gw": 1080, "gh": 1204, "titulo": "Edição de colecionador", "tag": "Especiais", "credito": "", "detalhes": [{"img": "assets/galeria/colecionador-d1-p.webp", "grande": "assets/galeria/colecionador-d1-g.webp", "w": 1080, "h": 1204}, {"img": "assets/galeria/colecionador-d2-p.webp", "grande": "assets/galeria/colecionador-d2-g.webp", "w": 1079, "h": 1204}], "baixa": false, "visivel": true},
+    {"id": "colecionador", "img": "assets/galeria/colecionador-p.webp", "grande": "assets/galeria/colecionador-g.webp", "w": 538, "h": 600, "gw": 1080, "gh": 1204, "titulo": "Drawikky NEW", "tag": "Especiais", "credito": "", "detalhes": [{"img": "assets/galeria/colecionador-d1-p.webp", "grande": "assets/galeria/colecionador-d1-g.webp", "w": 1080, "h": 1204}, {"img": "assets/galeria/colecionador-d2-p.webp", "grande": "assets/galeria/colecionador-d2-g.webp", "w": 1079, "h": 1204}], "baixa": false, "visivel": true},
     {"id": "vagalumes", "img": "assets/galeria/vagalumes-p.webp", "grande": "assets/galeria/vagalumes-g.webp", "w": 600, "h": 600, "gw": 1080, "gh": 1080, "titulo": "Vagalumes", "tag": "Fantasia", "credito": "", "detalhes": [{"img": "assets/galeria/vagalumes-d1-p.webp", "grande": "assets/galeria/vagalumes-d1-g.webp", "w": 1080, "h": 1080}], "baixa": false, "visivel": true},
     {"id": "fada-de-oculos", "img": "assets/galeria/fada-de-oculos-p.webp", "grande": "assets/galeria/fada-de-oculos-g.webp", "w": 600, "h": 600, "gw": 1080, "gh": 1080, "titulo": "Fada de óculos", "tag": "Desafios", "credito": "DTIYS de @lunavalentineart · #LVADTIYS", "detalhes": [{"img": "assets/galeria/fada-de-oculos-d1-p.webp", "grande": "assets/galeria/fada-de-oculos-d1-g.webp", "w": 822, "h": 822}], "baixa": false, "visivel": true},
     {"id": "game-over", "img": "assets/galeria/game-over-p.webp", "grande": "assets/galeria/game-over-g.webp", "w": 600, "h": 600, "gw": 1080, "gh": 1080, "titulo": "Game over", "tag": "Desafios", "credito": "DTIYS", "detalhes": [{"img": "assets/galeria/game-over-d1-p.webp", "grande": "assets/galeria/game-over-d1-g.webp", "w": 828, "h": 828}], "baixa": false, "visivel": true},

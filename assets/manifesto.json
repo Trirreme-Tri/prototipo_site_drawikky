@@ -77,7 +77,7 @@
   "destino": "assets/galeria/colecionador-d1-*.webp",
   "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
   "status": "usada",
-  "motivo": "detalhe dentro de \"Edição de colecionador\" (tela cheia), não repete na grade"
+  "motivo": "detalhe dentro de \"Drawikky NEW\" (tela cheia), não repete na grade"
  },
  {
   "origem": "drawikky_post_DIw21w_RqWz_3.webp",
@@ -85,7 +85,7 @@
   "destino": "assets/galeria/colecionador-d2-*.webp",
   "tratamento": "aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",
   "status": "usada",
-  "motivo": "detalhe dentro de \"Edição de colecionador\" (tela cheia), não repete na grade"
+  "motivo": "detalhe dentro de \"Drawikky NEW\" (tela cheia), não repete na grade"
  },
  {
   "origem": "drawikky_post_C89vyGYOSCl_1.webp",
@@ -486,14 +486,6 @@
   "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
   "status": "usada",
   "motivo": "cena: quem-sou"
- },
- {
-  "origem": "drawikky_post_DIw21w_RqWz_1.webp",
-  "tipo": "arte (cena)",
-  "destino": "assets/cenas/intervalo-caixa.webp",
-  "tratamento": "aparo; Lanczos (sem aumentar); unsharp suave",
-  "status": "usada",
-  "motivo": "cena: intervalo-caixa"
  },
  {
   "origem": "drawikky_post_C89vyGYOSCl_2.webp",

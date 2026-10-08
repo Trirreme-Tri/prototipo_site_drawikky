@@ -178,17 +178,6 @@ var Site = (function () {
   }
 
   function renderIntervalos() {
-    if (tem("#intervalo1")) {
-      var c = SITE.cenas.intervalo1;
-      var im = $("#iv1-img");
-      setImg(im, c.img, c.w, c.h, "Arte da " + SITE.perfil.nome);
-      $("#iv1-selo").textContent = c.selo || "";
-      $("#iv1-explosao").innerHTML = DECOR.explosao("", 14);
-      $("#iv1-titulo").textContent = c.titulo || "";
-      $("#iv1-frase").textContent = c.frase || "";
-      $("#iv1-en").textContent = c.fraseEn || "";
-      $("#iv1-botao").textContent = c.botao || "Encomendar";
-    }
     if (tem("#intervalo2")) {
       var d = SITE.cenas.intervalo2;
       var f = $("#iv2-img");

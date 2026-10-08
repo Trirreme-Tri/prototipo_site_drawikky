@@ -8,8 +8,8 @@ drawikky_post_DO1YaRKEYXv_3.webp,arte (detalhe/close),assets/galeria/noite-estre
 drawikky_post_DO1YaRKEYXv_4.webp,arte (detalhe/close),assets/galeria/noite-estrelada-d3-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Noite estrelada"" (tela cheia), não repete na grade"
 drawikky_post_DO1YaRKEYXv_5.webp,arte (detalhe/close),assets/galeria/noite-estrelada-d4-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Noite estrelada"" (tela cheia), não repete na grade"
 drawikky_post_DIw21w_RqWz_1.webp,arte,assets/galeria/colecionador-p.webp + -g.webp,"aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,galeria (arte principal)
-drawikky_post_DIw21w_RqWz_2.webp,arte (detalhe/close),assets/galeria/colecionador-d1-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Edição de colecionador"" (tela cheia), não repete na grade"
-drawikky_post_DIw21w_RqWz_3.webp,arte (detalhe/close),assets/galeria/colecionador-d2-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Edição de colecionador"" (tela cheia), não repete na grade"
+drawikky_post_DIw21w_RqWz_2.webp,arte (detalhe/close),assets/galeria/colecionador-d1-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Drawikky NEW"" (tela cheia), não repete na grade"
+drawikky_post_DIw21w_RqWz_3.webp,arte (detalhe/close),assets/galeria/colecionador-d2-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Drawikky NEW"" (tela cheia), não repete na grade"
 drawikky_post_C89vyGYOSCl_1.webp,arte,assets/galeria/vagalumes-p.webp + -g.webp,"aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,galeria (arte principal)
 drawikky_post_C89vyGYOSCl_2.webp,arte (detalhe/close),assets/galeria/vagalumes-d1-*.webp,"aparo (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,"detalhe dentro de ""Vagalumes"" (tela cheia), não repete na grade"
 drawikky_post_C6tqJTntgOU_1.webp,arte,assets/galeria/fada-de-oculos-p.webp + -g.webp,"aparo de borda (0, 0, 0, 0); Lanczos; unsharp suave; webp q84",usada,galeria (arte principal)
@@ -60,7 +60,6 @@ drawikky_post_C2h-4lyuDCh_2.webp,arte (detalhe/close),assets/galeria/ponei-das-c
 "print do perfil, bloco t70",arte (miniatura do perfil),assets/galeria/coroa-de-bolo-p.webp,"recorte sem o ícone de carrossel (topo -30px); desfoque 0,35 contra compressão; Lanczos 2×; unsharp suave; webp q84",usada,baixa resolução: só na grade; pedir arquivo original
 drawikky_post_DXh0076keNO_1.webp,arte (cena),assets/cenas/abertura.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: abertura
 drawikky_post_DIw21w_RqWz_3.webp,arte (cena),assets/cenas/quem-sou.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: quem-sou
-drawikky_post_DIw21w_RqWz_1.webp,arte (cena),assets/cenas/intervalo-caixa.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: intervalo-caixa
 drawikky_post_C89vyGYOSCl_2.webp,arte (cena),assets/cenas/intervalo-vagalumes.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: intervalo-vagalumes
 drawikky_post_C2h-4lyuDCh_2.webp,arte (cena),assets/cenas/topo-portfolio.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: topo-portfolio
 drawikky_post_C6OnJJ9uHf4_2.webp,arte (cena),assets/cenas/topo-agenda.webp,aparo; Lanczos (sem aumentar); unsharp suave,usada,cena: topo-agenda

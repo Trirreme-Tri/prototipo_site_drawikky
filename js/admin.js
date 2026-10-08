@@ -275,10 +275,6 @@
           linha(campo(c + ".ep", "Episódio"), campo(c + ".titulo", "Título")) +
           linha(campo(c + ".sub", "Frase curta", { largo: true }), campo(c + ".subEn", "Frase em inglês")));
       }).join("") +
-      secao("Intervalo comercial", "A cena lilás no meio da página inicial.",
-        campoImg("cenas.intervalo1.img", "Imagem") +
-        linha(campo("cenas.intervalo1.selo", "Selo"), campo("cenas.intervalo1.titulo", "Palavra na explosão"), campo("cenas.intervalo1.botao", "Texto do botão")) +
-        campo("cenas.intervalo1.frase", "Frase", { tipo: "textarea", linhas: 2 }) + campo("cenas.intervalo1.fraseEn", "Frase em inglês")) +
       secao("Cena de encerramento", "A arte em tela cheia antes dos créditos.",
         campoImg("cenas.intervalo2.img", "Imagem") +
         campo("cenas.intervalo2.foco", "Parte da imagem em destaque", { tipo: "select", opcoes: opcoesFoco("cenas.intervalo2.foco") }) +
@@ -337,7 +333,7 @@
   var NOMES_CORES = {
     laranja: ["Tangerina", "Fundo da abertura e do topo de Encomendas"],
     rosa: ["Rosa chiclete", "Botões, sombras dos letreiros e vagas preenchidas"],
-    lavanda: ["Lavanda", "Intervalo comercial e topo da Agenda"],
+    lavanda: ["Lavanda", "Topo da Agenda e etiqueta de fechada"],
     ceu: ["Azul-céu", "Ícones, etapas da fila e entregas"],
     amarelo: ["Amarelo", "Etiquetas, seleção e números de destaque"],
     creme: ["Creme", "Letras dos letreiros e fundo claro"],
